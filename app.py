@@ -4,7 +4,7 @@ from flask import render_template
 app=Flask(__name__)
 
 @app.route('/')
-def inicio():
+def Inicio():
     return render_template('Sitio/index.html')
 
 @app.route('/Nosotros')
